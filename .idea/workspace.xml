@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/fabric">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/velocity">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/fabric">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="XChat" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="XChat" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/velocity" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2mhcu5FvpqYWb58GA4LfRadXLyl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle./home/xiaoxigua/code/XChat/fabric [wrapper].executor": "Run",
+    "Gradle.XChat [:build-logic:build].executor": "Run",
+    "Gradle.XChat [clean].executor": "Run",
+    "Gradle.XChat [jar].executor": "Run",
+    "Gradle.XChat [runAllServer].executor": "Run",
+    "Gradle.XChat [runServer].executor": "Run",
+    "Gradle.XChat:fabric [buildNeeded].executor": "Run",
+    "Gradle.XChat:fabric [jar].executor": "Run",
+    "Gradle.XChat:fabric [publish].executor": "Run",
+    "Gradle.XChat:fabric [runServer].executor": "Run",
+    "Gradle.XChat:velocity [runVelocity].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "<unknown>",
+    "jdk.selected.JDK": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/xiaoxigua/code/XChat/build.gradle.kts",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  },
+  "keyToStringList": {
+    "jdk.preference.JDK": [
+      "21=/usr/lib/jvm/java-21-openjdk"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.XChat [jar]">
+    <list>
+      <item itemvalue="Gradle.XChat [runAllServer]" />
+      <item itemvalue="Gradle.XChat [jar]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.XChat [runAllServer]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/build-logic/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/build-logic/build/kotlin-dsl/plugins-blocks/extracted/build-logic.base-conventions.gradle.kts" />
+        <option value="$PROJECT_DIR$/build-logic/src/main/kotlin/build-logic.base-conventions.gradle.kts" />
+        <option value="$PROJECT_DIR$/fabric/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/fabric/settings.gradle.kts" />
+        <option value="$PROJECT_DIR$/settings.gradle.kts" />
+      </set>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="" />
+      <created>1727532468678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727532468678</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "xchat",
+  "version": "${version}",
+  "name": "XChat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/xchat/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.xiaoxigua.fabric.xchat.XChat"
+    ]
+  },
+  "mixins": [
+    "xchat.mixins.json",
+    {
+      "config": "xchat.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
