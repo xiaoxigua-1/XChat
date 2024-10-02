@@ -2,11 +2,10 @@ version = rootProject.version
 group = rootProject.group
 
 plugins {
-    kotlin("jvm") version "2.0.20-Beta1"
-    kotlin("kapt") version "2.0.20-Beta1"
-    id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("eclipse")
-    id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.8"
+    kotlin("jvm")
+    kotlin("kapt")
+    id("com.github.johnrengelman.shadow")
+    id("org.jetbrains.gradle.plugin.idea-ext")
     id("xyz.jpenilla.run-velocity") version "2.3.1"
 }
 
@@ -24,6 +23,8 @@ dependencies {
     compileOnly("com.velocitypowered:velocity-api:3.3.0-SNAPSHOT")
     kapt("com.velocitypowered:velocity-api:3.3.0-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("io.netty:netty-buffer:4.2.0.Alpha4")
+    implementation(project(":common"))
 }
 
 val targetJavaVersion = 21

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/XChat.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/XChat.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/XChat.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/XChat.common.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/XChat.fabric.client.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/XChat.fabric.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/XChat.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/XChat.fabric.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/XChat.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/XChat.fabric.test.iml" />

@@ -16,6 +16,6 @@ pluginManagement {
     }
 }
 
-listOf("velocity", "fabric").map {
+listOf("velocity", "fabric", "common").map {
     include(it)
 }

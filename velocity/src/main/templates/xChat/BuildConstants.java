@@ -1,4 +1,4 @@
-package org.xiaoxigua.velocity.xchat;
+package org.xiaoxigua.xchat.velocity;
 
 // The constants are replaced before compilation
 public class BuildConstants {

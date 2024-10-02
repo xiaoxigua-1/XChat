@@ -11,7 +11,7 @@
   "environment": "server",
   "entrypoints": {
     "main": [
-      "org.xiaoxigua.fabric.xchat.XChat"
+      "org.xiaoxigua.xchat.fabric.XChat"
     ]
   },
   "mixins": [

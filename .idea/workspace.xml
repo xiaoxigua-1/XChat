@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="" />
+    <list default="true" id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="Init project struct">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/XChat.common.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/XChat.common.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/ChannelIdentifier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/XChatEventType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/config/Config.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/config/ConfigManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codec.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codecs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/ComponentType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/EnchantmentsBinaryTagCodec.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/IntBinaryTagCodec.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/StringBinaryTagCodec.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChatEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/ServerManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/PlayerChat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/ServerConnect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/fabric/xchat/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/xchat.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/xchat.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/velocity/xchat/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/XChat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/src/main/templates/xChat/BuildConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/templates/xChat/BuildConstants.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +73,12 @@
                 <item name="XChat" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="XChat" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -49,8 +86,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/velocity" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -61,48 +108,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle./home/xiaoxigua/code/XChat/fabric [wrapper].executor": "Run",
-    "Gradle.XChat [:build-logic:build].executor": "Run",
-    "Gradle.XChat [clean].executor": "Run",
-    "Gradle.XChat [jar].executor": "Run",
-    "Gradle.XChat [runAllServer].executor": "Run",
-    "Gradle.XChat [runServer].executor": "Run",
-    "Gradle.XChat:fabric [buildNeeded].executor": "Run",
-    "Gradle.XChat:fabric [jar].executor": "Run",
-    "Gradle.XChat:fabric [publish].executor": "Run",
-    "Gradle.XChat:fabric [runServer].executor": "Run",
-    "Gradle.XChat:velocity [runVelocity].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "<unknown>",
-    "jdk.selected.JDK": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/xiaoxigua/code/XChat/build.gradle.kts",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle./home/xiaoxigua/code/XChat/fabric [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat [:build-logic:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat [runAllServer].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat [runServer].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat:fabric [buildNeeded].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat:fabric [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat:fabric [publish].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat:fabric [runServer].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XChat:velocity [runVelocity].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JDK&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/xiaoxigua/code/XChat/build.gradle.kts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
-  "keyToStringList": {
-    "jdk.preference.JDK": [
-      "21=/usr/lib/jvm/java-21-openjdk"
+  &quot;keyToStringList&quot;: {
+    &quot;jdk.preference.JDK&quot;: [
+      &quot;21=/usr/lib/jvm/java-21-openjdk&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common" />
+      <recent name="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity" />
+      <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.xiaoxigua.xchat.common.unitll.component" />
+      <recent name="org.xiaoxigua.xchat.common.unitll" />
+      <recent name="org.xiaoxigua.xchat.common" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.XChat [jar]">
+  <component name="RunManager" selected="Gradle.XChat [runAllServer]">
+    <configuration name="XChat [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.XChat [runAllServer]" />
       <item itemvalue="Gradle.XChat [jar]" />
+      <item itemvalue="Gradle.XChat [clean]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.XChat [runAllServer]" />
+        <item itemvalue="Gradle.XChat [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -128,5 +208,9 @@
       <updated>1727532468678</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init project struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init project struct" />
   </component>
 </project>
