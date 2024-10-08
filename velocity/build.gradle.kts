@@ -17,10 +17,14 @@ repositories {
     maven("https://oss.sonatype.org/content/groups/public/") {
         name = "sonatype"
     }
+    maven("https://repo.codemc.io/repository/maven-releases/") {
+        name = "codemc"
+    }
 }
 
 dependencies {
     compileOnly("com.velocitypowered:velocity-api:3.3.0-SNAPSHOT")
+    compileOnly("com.github.retrooper:packetevents-velocity:2.5.0")
     kapt("com.velocitypowered:velocity-api:3.3.0-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("io.netty:netty-buffer:4.2.0.Alpha4")

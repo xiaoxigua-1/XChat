@@ -4,37 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="Init project struct">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common/XChat.common.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common/XChat.common.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/ChannelIdentifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/XChatEventType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/config/Config.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/config/ConfigManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codec.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codecs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/ComponentType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/EnchantmentsBinaryTagCodec.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/IntBinaryTagCodec.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/StringBinaryTagCodec.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChatEvent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/ServerManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/PlayerChat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/ServerConnect.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="missing file">
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/NBTDataComponentValue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/QueryEntityNBTListener.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/fabric/xchat/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/xchat.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/xchat.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/ChannelIdentifier.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/XChatEventType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codec.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codecs.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/ComponentType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/EnchantmentsBinaryTagCodec.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/IntBinaryTagCodec.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/StringBinaryTagCodec.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChatEvent.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/velocity/xchat/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/XChat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity/src/main/templates/xChat/BuildConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/templates/xChat/BuildConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/ServerManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/XChat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/PlayerChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/PlayerChat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/ServerConnect.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +81,8 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -207,10 +197,29 @@
       <option name="presentableId" value="Default" />
       <updated>1727532468678</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init custom protocol">
+      <option name="closed" value="true" />
+      <created>1727857488229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727857488229</updated>
+    </task>
+    <task id="LOCAL-00002" summary="missing file">
+      <option name="closed" value="true" />
+      <created>1727857545817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727857545817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project struct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init project struct" />
+    <MESSAGE value="Init custom protocol" />
+    <MESSAGE value="missing file" />
+    <option name="LAST_COMMIT_MESSAGE" value="missing file" />
   </component>
 </project>
