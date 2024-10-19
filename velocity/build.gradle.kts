@@ -54,6 +54,11 @@ tasks {
         // Configure the Velocity version for our task.
         // This is the only required configuration besides applying the plugin.
         // Your plugin's jar (or shadowJar if present) will be used automatically.
-        velocityVersion("3.3.0-SNAPSHOT")
+        velocityVersion("3.4.0-SNAPSHOT")
+
+        downloadPlugins {
+            modrinth("packetevents", "2.5.0")
+            modrinth("signedvelocity", "1.2.4")
+        }
     }
 }
