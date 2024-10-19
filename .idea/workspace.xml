@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="missing file">
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/NBTDataComponentValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/QueryEntityNBTListener.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="249ceff6-de59-4044-b3d3-c58d29a7c0ee" name="Changes" comment="remove fabric mod and use PacketEvents library">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/XChat__runAllServer_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/XChat__runAllServer_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/ChannelIdentifier.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/XChatEventType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codec.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/Codecs.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/ComponentType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/EnchantmentsBinaryTagCodec.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/IntBinaryTagCodec.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/unitll/component/StringBinaryTagCodec.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/kotlin/org/xiaoxigua/xchat/fabric/XChatEvent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/ServerManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/NBTDataComponentValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/xiaoxigua.xchat.common/NBTDataComponentValue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/XChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/XChat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/PlayerChat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/PlayerChat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/ServerConnect.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/QueryEntityNBTListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/org/xiaoxigua/xchat/velocity/listeners/QueryEntityNBTListener.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,13 +198,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727857545817</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove fabric mod and use PacketEvents library">
+      <option name="closed" value="true" />
+      <created>1728413579255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728413579255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project struct" />
     <MESSAGE value="Init custom protocol" />
     <MESSAGE value="missing file" />
-    <option name="LAST_COMMIT_MESSAGE" value="missing file" />
+    <MESSAGE value="remove fabric mod and use PacketEvents library" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove fabric mod and use PacketEvents library" />
   </component>
 </project>

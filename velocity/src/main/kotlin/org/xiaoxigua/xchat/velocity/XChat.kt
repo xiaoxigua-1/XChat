@@ -31,6 +31,7 @@ class XChat @Inject constructor(private val server: ProxyServer, private val log
     @Subscribe
     fun onProxyInitialization(event: ProxyInitializeEvent) {
         logger.info("Initialization XChat plugin")
+        logger.atDebug()
 
         server.eventManager.register(this, PlayerChat(logger, server, configManager, queryEntityNBTListener))
         PacketEvents.getAPI().eventManager.registerListener(queryEntityNBTListener, PacketListenerPriority.NORMAL)

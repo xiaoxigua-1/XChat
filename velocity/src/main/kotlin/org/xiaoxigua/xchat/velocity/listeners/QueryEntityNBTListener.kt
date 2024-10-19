@@ -4,13 +4,14 @@ import com.github.retrooper.packetevents.event.PacketListener
 import com.github.retrooper.packetevents.event.PacketSendEvent
 import com.github.retrooper.packetevents.protocol.nbt.*
 import com.github.retrooper.packetevents.protocol.packettype.PacketType
+import com.github.retrooper.packetevents.util.adventure.AdventureNBTSerializer
 import com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerNBTQueryResponse
 import com.velocitypowered.api.proxy.ProxyServer
 import com.velocitypowered.api.scheduler.ScheduledTask
-import net.kyori.adventure.internal.Internals
 import net.kyori.adventure.key.Key
 import net.kyori.adventure.text.Component
-import org.xiaoxigua.xchat.common.NBTDataComponentValue
+import net.kyori.adventure.text.event.HoverEvent
+import net.kyori.adventure.text.event.HoverEvent.ShowItem
 import org.xiaoxigua.xchat.velocity.XChat
 import java.util.UUID
 import java.util.concurrent.TimeUnit
@@ -19,38 +20,30 @@ class QueryEntityNBTListener(private val plugin: XChat, private val server: Prox
     data class Listener(val task: ScheduledTask, val component: Component)
 
     private val listeners = mutableMapOf<UUID, Listener>()
-    private object NBTDecode : NBTDataComponentValue() {
-        fun <T: NBT> decode(data: T): NBTDataComponentValue {
-            return when (data) {
-                is com.github.retrooper.packetevents.protocol.nbt.NBTList<*> -> {
-                    NBTList(data.tags.map { decode(it) })
-                }
-                is NBTCompound -> {
-                    NBTComponent(data.tags.map {(key, value) ->
-                        Key.key(key.lowercase()) to decode(value)
-                    }.toMap())
-                }
-                is com.github.retrooper.packetevents.protocol.nbt.NBTInt -> NBTInt(data.asInt)
-                is com.github.retrooper.packetevents.protocol.nbt.NBTByte -> NBTByte(data.asByte)
-                is com.github.retrooper.packetevents.protocol.nbt.NBTLong -> NBTLong(data.asLong)
-                is com.github.retrooper.packetevents.protocol.nbt.NBTShort -> NBTShort(data.asShort)
-                is com.github.retrooper.packetevents.protocol.nbt.NBTFloat -> NBTFloat(data.asFloat)
-                is com.github.retrooper.packetevents.protocol.nbt.NBTDouble -> NBTDouble(data.asDouble)
-                is com.github.retrooper.packetevents.protocol.nbt.NBTString -> NBTString(data.value)
-                else -> throw Error("")
-            }
-        }
-    }
 
     override fun onPacketSend(event: PacketSendEvent?) {
         when (event?.packetType) {
             PacketType.Play.Server.NBT_QUERY_RESPONSE -> {
                 val nbtQueryResponse = WrapperPlayServerNBTQueryResponse(event)
                 val uuid = event.user.uuid
+                val item = nbtQueryResponse.tag.getCompoundListTagOrNull("Inventory")!!.tags[0]
+                val contents = NBTCompound()
+                val hoverEvent = NBTCompound()
 
-                val componentValue = NBTDecode.decode(nbtQueryResponse.tag.getCompoundListTagOrNull("Inventory")!!)
-                println(componentValue)
-                server.sendMessage(listeners[uuid]?.component ?: Component.text())
+                item.removeTag("Slot")
+                contents.setTag("action", NBTString(HoverEvent.Action.SHOW_ITEM.toString()))
+                contents.setTag("contents", item)
+                hoverEvent.setTag("hoverEvent", contents)
+
+                println(item)
+
+                val style = AdventureNBTSerializer(false).deserializeStyle(hoverEvent)
+                val component = Component.text("Hello", style)
+
+                println((style.hoverEvent()?.value() as ShowItem).dataComponents()[Key.key("custom_name")])
+
+                server.sendMessage(component)
+//                server.sendMessage(listeners[uuid]?.component ?: Component.text())
                 listeners[uuid]?.task?.cancel()
                 listeners.remove(uuid)
             }

@@ -1,6 +1,6 @@
 package org.xiaoxigua.xchat.common
 
-import net.kyori.adventure.key.Keyed
+import net.kyori.adventure.key.Key
 import net.kyori.adventure.text.event.DataComponentValue
 import net.kyori.examination.ExaminableProperty
 import java.util.stream.Stream
@@ -42,9 +42,13 @@ abstract class NBTDataComponentValue: DataComponentValue {
         override fun examinableProperties(): Stream<out ExaminableProperty> {
             return Stream.of(ExaminableProperty.of("element", element))
         }
+
+        override fun toString(): String {
+            return element
+        }
     }
 
-    data class NBTComponent(val element: Map<Keyed, NBTDataComponentValue>) : NBTDataComponentValue() {
+    data class NBTComponent(val element: Map<Key, NBTDataComponentValue>) : NBTDataComponentValue() {
         override fun examinableProperties(): Stream<out ExaminableProperty> {
             return Stream.of(ExaminableProperty.of("element", element))
         }
